@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+#home1 a {
+    text-decoration: none;
+    color: white;
+}
+#home1 {
+    list-style: none;
+    display: flex;
+    background-color: #1285c6;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding-left: 4.7cm;
+    padding-right: 5cm;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#home1 li {
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
+    font-weight: 750;
+    line-height: 35px;
+    text-transform: uppercase;
+    border-right: 0.2px solid rgb(37, 101, 153);
+}
+
+#acadmics {
+    position: absolute;
+    width: 200px;
+    z-index: 5;
+    list-style: none;
+    background-color: #ffffff;
+    width: auto;
+    font-weight: bold;
+    /*text-align: center;*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#acadmics {
+    background-color: white;
+}
+
+#home1>li:hover {
+    background-color: rgb(71, 120, 161);
+}
+
+#home1 li:hover #acadmics {
+    display: block;
+}
+
+#home1 ul {
+    list-style: none;
+    display: none;
+}
+#acadmics a {
+    color: black;
+    background-color: white;
+    font-weight: normal;
+    font-size: 13px;
+}
+#home2{
+    margin-left: 5.5cm;
+    margin-right: 5.5cm;
+    margin-top: -10px;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+    background-color: rgb(73, 71, 71);
+    margin-bottom: 0.5cm;
+}
+.rightlinks{
+    float: right;
+    width: 9cm;
+    height: 7.77cm;
+    margin-right: 5.5cm;
+    border: 1px solid black;
+    list-style: none;
+}
+.rightlinks .heading{
+    height: 1cm;
+    width: 8.53cm;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.3cm;
+    padding-left: 0.5cm;
+    font-size: 0.5cm;
+    background-color: #1786c7;
+    margin-left: -0.7px;
+    margin-top: -0.01cm;
+    /*border-left: 2px solid black;*/
+}
+.faaltu .marquelink{
+    margin-left: -20px;
+}
+.faaltu li a{
+    color: #1786c7;
+}
+.usefullinks{
+    margin-top: 1cm;
+    margin-left: 5.5cm;
+    width: 9cm;
+    border: 1px solid black;
+    float: left;  
+    overflow: hidden; 
+    padding-top: 1.5cm;
+    height: 9cm;
+}
+.usefullinks .heading{
+    background-color: #1786c7;
+    height: 1cm;
+    width: 8.5cm;
+    position: absolute;
+    float: left;
+    margin-top: -1.51cm;
+    font-weight: bold;
+    font-size: 0.5cm;
+    color: white;
+    padding-bottom: 0.4cm;
+    padding-left: 0.52cm;
+    margin-bottom: 0.2cm;
+
+}
+.usefullinks ul li a{
+    color:black;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 0.549cm;
+    margin-left: -0.5cm;
+}
+.usefullinks ul li a:hover{
+    background-color: rgb(214, 210, 210);
+}
+.usefullinks ul hr{
+    margin-left: -1.05cm;
+    width: 9.05cm;
+}
+.use2{
+    margin-top: 1cm;
+    margin-left: 0.8cm;
+    width: 9cm;
+    border: 1px solid black;
+    float: left;
+    height: 7cm;
+    overflow: hidden;
+}
+.use2 .heading{
+    background-color: #1786c7;
+    height: 1cm;
+    width: 8.49cm;
+    position: absolute;
+    float: left;
+    margin-top: -0.01cm;
+    font-weight: bold;
+    font-size: 0.5cm;
+    color: white;
+    padding-bottom: 0.4cm;
+    padding-left: 0.52cm;
+    margin-left: -0.01cm;
+}
+.use2 .a1{
+    position: relative;
+    margin-top: 1.4cm;
+    width: 9cm;
+    height: 6.1cm;
+    overflow: scroll;
+}
+.use2 .a1 ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.use2 .a1 .morebutton{
+    color: white;
+    font-weight: bold;
+    background-color: #2490cf;
+    border: 0;
+    position: relative;
+    margin-left: 5.5cm;
+    font-size: 15px;
+    width: 1.5cm;
+    height: 1cm;
+    cursor: pointer;
+}
+.use3{
+    margin-top: 1cm;
+    margin-left: 0.8cm;
+    width: 9cm;
+    border: 0.1px solid black;
+    float: left;
+    height: 7cm;
+    overflow-x: hidden;
+}
+.use3 .heading{
+    background-color: #1786c7;
+    height: 1cm;
+    width: 8.49cm;
+    position: relative;
+    float: left;
+    margin-top: -0.01cm;
+    font-weight: bold;
+    font-size: 0.5cm;
+    color: white;
+    padding-bottom: 0.4cm;
+    padding-left: 0.52cm;
+}
+.use3 .a1{
+    position: relative;
+    height: 5.6cm;
+    width: 9.5cm;
+    margin-top: 1.4cm;
+    overflow-y: scroll;
+    margin-left: -0.5cm;
+}
+.use3 .a1 ul li a{
+    color: #1786c7;
+    font-size: 90%;
+}
+.use3 .a1 ul li a:hover{
+    text-decoration: underline;
+}
+.use3 .a1 ul button{
+    color: white;
+    font-weight: bold;
+    background-color: #2490cf;
+    border: 0;
+    position: relative;
+    margin-left: 5.5cm;
+    font-size: 15px;
+    width: 1.5cm;
+    height: 1cm;
+    cursor: pointer;
+}
+.bottom{
+    margin-top: 13.2cm;
+    background-color: rgba(0, 0, 0, 0.883);
+    height: 5.72cm;
+    width: 34.29cm;
+    margin-left: -0.3cm;
+    margin-bottom: -0.2cm;
+    padding-left: 6cm;
+}
+.bottom .left{
+    position: relative;
+    height: 4cm;
+    width: 6cm;
+    float: left;
+    margin-right: 1cm;
+}
+.bottom .left ul li{
+    color: white;
+    list-style-type: disc;
+}
+.bottom .left ul li a{
+    color: white;
+    /*font-weight: bold;*/
+}
+.bottom .center ul li{
+    color: white;
+    list-style-type: disc;
+}
+.bottom .center ul li a{
+    color: white;
+    /*font-weight: bold;*/
+}
+.bottom .right ul li{
+    color: white;
+    list-style-type: disc;
+}
+.bottom .right ul li a{
+    color: white;
+    /*font-weight: bold;*/
+}
+.bottom .center{
+    position: relative;
+    height: 4cm;
+    width: 6cm;
+    float: left;
+    margin-right: 0.5cm;
+}.bottom .right{
+    position: relative;
+    height: 4cm;
+    width: 8cm;
+    float: left;
+}.bottom .rright{
+    position: relative;
+    height: 3cm;
+    width: 6cm;
+    float: left;
+    padding-top: 1cm;
+    margin-left: -1cm;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+.bottom .rright img{
+    height: 35px;
+    width: 35px;
+}
+.copyright{
+    margin-left: 8cm;
+    color: white;
+}
